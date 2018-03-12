@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My pictures</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="viewport" content="width=device-width, initial-scale=1"><meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+body,h1 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+<style>
+  body {
+      position: relative; 
+  }
+  #section1 {padding-top:50px;height:500px; }
+  #section2 {padding-top:50px;height:200px;}
+  #section3 {padding-top:50px;height:200px;}
+  #section4 {padding-top:50px;height:500px;}
+  </style>
+  </head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Likki's Photolio</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">HOME</a></li>
+          <li><a href="#section2">MY WORK</a></li>
+          <li><a href="#section3">ABOUT</a></li>
+           <li><a href="#section4">CONTACT</a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("liko.jpg");
+  height: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+</style>
+</head>
+<body>
+<div id="section1" class="container-fluid">
+<div class="bgimg-1">
+  <div class="caption">
+    <span class="border">LIKITHA</span><br>
+    <span class="border">KRISHNAMURTHY</span>
+  </div>
+</div>
+
+<p style="padding:5px 15px">
+</div>
+<div class="container">
+  <h2>Nature</h2>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="34.jpeg" alt="red is everything" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="39.jpg" alt="Violet nature" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="35.jpg" alt="River" style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body>
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<div class="w3-opacity">
+<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+<div class="w3-clear"></div>
+ <div id="section2" class="container-fluid">
+<header class="w3-center w3-margin-bottom">
+  <h1><b>PHOTOLIO</b></h1>
+  <p><b></b></p>
+  <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>
+</header>
+</div>
+<!-- Photo Grid -->
+<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+  <div class="w3-third">
+    <img src="21.jpg" style="width:100%">
+    <img src="22.jpeg" style="width:100%">
+    <img src="23.jpg" style="width:100%">
+    <img src="24.jpg" style="width:100%">
+    <img src="25.jpg" style="width:100%">
+    <img src="26.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="27.jpg" style="width:100%">
+    <img src="28.jpg" style="width:100%">
+    <img src="29.jpg" style="width:100%">
+    <img src="30.jpeg" style="width:100%">
+	<img src="31.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="33.PNG" style="width:100%">
+    <img src="34.jpeg" style="width:100%">
+    <img src="35.jpg" style="width:100%">
+    <img src="36.jpg" style="width:100%">
+    <img src="37.JPG" style="width:100%">
+    <img src="38.jpeg" style="width:100%">
+	<img src="32.jpeg" style="width:100%">
+  </div>
+</div>
+</div>
+<!-- End Page Content -->
+</div>
+
+<div id="section3" class="container-fluid">
+<h1>About</h1>
+<p><b><i>I am a travel lover  having a fresh zeal towards nature.
+ I have always loved to capture whatever I like all over my atmosphere. 
+Life is the best gift that one could ever receive, perhaps I love living it my way. . I love taking photos of PEOPLE.
+These pictures were taken when my inborn sense asks me to capture some good moods.</i></b></p>
+</div>
+<div id="section4" class="container-fluid">
+<h1>Contact</h1>
+<p><i><b>Leketha Krishnamurthy|leketha998@gmail.com</b></i></p>
+</div>
+<script>
+// Toggle grid padding
+function myFunction() {
+    var x = document.getElementById("myGrid");
+    if (x.className === "w3-row") {
+        x.className = "w3-row-padding";
+    } else { 
+        x.className = x.className.replace("w3-row-padding", "w3-row");
+    }
+}
+
+// Open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.width = "100%";
+    document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+
+</body>
+</html>
